@@ -1,0 +1,86 @@
+main{
+    max-height: max-content;
+    margin-left: 100px;
+    max-width: 1000px;
+    align-items: center;
+}
+header {
+    height: 90px;
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: auto;
+    height: 70px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}       
+.genre-category ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.genre-category ul li {
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.genre-category ul li input[type="checkbox"] {
+    display: none;
+    
+}
+.genre-category ul li label {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: lightblue;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+.genre-category ul li input[type="checkbox"]:checked + label {
+    background-color: #0056b3;
+    
+}
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}

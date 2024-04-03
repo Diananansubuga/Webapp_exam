@@ -1,0 +1,99 @@
+/* Custom CSS for navigation bar */
+body {
+    padding-top: 70px;
+    margin-left: 20px; /* Adjust based on navbar height */
+  }
+  
+  .navbar {
+    background-color: #343a40 !important; /* Navbar background color */
+  }
+  
+  .navbar-brand {
+    color: #ffffff !important; /* Navbar brand color */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff !important; /* Navbar link color */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffffff !important; /* Navbar link hover color */
+  }
+  
+  /* Cart badge styling */
+  .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 0.75rem;
+    border-radius: 50%;
+    min-width: 18px;
+    height: 18px;
+    padding: 0.25rem;
+  }
+  
+  /* Cart icon styling */
+  .nav-link svg {
+    width: 2em;
+    height:2em;
+    vertical-align: -0.125em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  
+  /* Reduce the size of images */
+  .card-img-top {
+    max-width: 100%;
+    height: 30px;
+    object-fit: cover
+  }
+  
+  /* Reduce the size of card divs */
+  .card {
+    margin-bottom: 20px; /* Add some bottom margin to create space between cards */
+    border: 1px solid #dee2e6; /* Add border to separate cards visually */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    overflow: hidden; /* Hide overflowing content within cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth effect */
+  }
+  
+  /* Set a fixed height for card bodies */
+  .card-body {
+    height: 150px; /* Adjust the height as needed */
+    padding: 15px; /* Add padding to the card body */
+    overflow: hidden; /* Hide overflowing content within card bodies */
+  }
+  
+  /* Set styles for card titles */
+  .card-title {
+    font-size: 18px; /* Adjust the font size of card titles */
+    margin-bottom: 10px; /* Add bottom margin to create space between title and other content */
+  }
+  
+  /* Set styles for card text */
+  .card-text {
+    font-size: 14px; /* Adjust the font size of card text */
+    margin-bottom: 5px; /* Add bottom margin to create space between text lines */
+  }
+  
+  /* Adjust button styles */
+  .btn {
+    font-size: 14px; /* Adjust the font size of buttons */
+    padding: 5px 10px; /* Add padding to buttons */
+  }
+  
+  /* Adjust badge styles */
+  .badge {
+    font-size: 14px; /* Adjust the font size of badges */
+    padding: 5px 8px; /* Add padding to badges */
+  }
+  
+  .sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }

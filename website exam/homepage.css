@@ -1,0 +1,217 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    height: 90px;
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: auto;
+    height: 70px; /* Ensure equal height and width for a perfect circle */
+    border-radius: 50%; /* Make the image round */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Banner Section Styles */
+.banner {
+    position: relative;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 500px;
+    width: 50%; /* Adjust as needed */
+    height: 100%;
+    background-image: url('home.jpg'); /* Add your image URL */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    border:none;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    width: 50%; /* Adjust as needed */
+    padding: 50px;
+    text-align: center;
+    color: black;
+  }
+  
+
+.banner h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.explore-btn:hover {
+    background: linear-gradient(-135deg, #9b59b6, #71b7e6);
+}
+
+/* Featured Books Section Styles */
+.featured-books {
+    padding: 50px 0;
+}
+
+.books-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.book-card {
+    width: calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.book-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.book-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.book-info a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #9b59b6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.book-info a:hover {
+    background-color: #8e44ad;
+}
+
+.view-all {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.view-all:hover {
+    color: #000;
+}
+
+/* Call to Action Section Styles */
+.call-to-action {
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.join-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.join-btn:hover {
+    background: linear-gradient(-135deg, #9b59b6, #71b7e6);
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
