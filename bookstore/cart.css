@@ -1,0 +1,48 @@
+/* CSS for Cart Form */
+.container {
+    margin-top: 50px; /* Adjust the top margin to center the cart */
+}
+
+.card {
+    max-width: 800px; /* Set maximum width for the card */
+    margin: 0 auto; /* Center the card horizontally */
+}
+
+.card-footer {
+    display: flex; /* Use flexbox for button alignment */
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+.btn-primary {
+    margin-right: 10px; /* Add some space between buttons */
+    background-color: #71b7e6;
+     /* Set background gradient */
+    border: none; /* Remove border */
+    color: #fff; /* Set text color to white */
+}
+
+.btn-primary:hover {
+    filter: brightness(90%); /* Adjust brightness on hover */
+}
+
+.btn-dark {
+    margin-right: 10px; /* Add some space between buttons */
+    background-image: linear-gradient(135deg, #71b7e6, #9b59b6); /* Set background color */
+    border: none; /* Remove border */
+    color: #fff; /* Set text color to white */
+}
+
+.btn-dark:hover {
+    filter: brightness(90%); /* Adjust brightness on hover */
+}
+
+.btn-warning {
+    margin-right: 10px; /* Add some space between buttons */
+    background-color: #9b59b6; /* Set background color */
+    border: none; /* Remove border */
+    color: #fff; /* Set text color to white */
+}
+
+.btn-warning:hover {
+    filter: brightness(90%); /* Adjust brightness on hover */
+}

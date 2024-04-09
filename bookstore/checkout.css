@@ -1,0 +1,31 @@
+/* CSS for Checkout Form */
+.container {
+    margin-top: 50px; /* Adjust the top margin to center the form */
+}
+
+.card {
+    max-width: 800px; /* Set maximum width for the card */
+    margin: 0 auto; /* Center the card horizontally */
+}
+
+.card-body {
+    padding: 20px; /* Add padding to the card body */
+}
+
+.form-horizontal {
+    margin-bottom: 20px; /* Add some space below the form */
+}
+
+.form-control {
+    border-radius: 0; /* Remove border radius for form controls */
+}
+
+.btn-primary {
+    background-image: linear-gradient(135deg, #71b7e6, #9b59b6); /* Set background color for Purchase button */
+    border: none; /* Remove button border */
+    color: #fff; /* Set text color to white */
+}
+
+.btn-primary:hover {
+    background-color: #9b59b6; /* Change background color on hover */
+}

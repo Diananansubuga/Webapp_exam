@@ -1,0 +1,91 @@
+
+.navbar {
+    margin-top: 0px;
+    /* position:static;  */
+    top: 0; 
+    width: 100%; 
+    background: linear-gradient(135deg, #71b7e6, #9b59b6); /* Navbar background color */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin: 0; 
+}
+
+.navbar-brand {
+    font-weight: bold; 
+    color: #212529; 
+    text-decoration: none; 
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0; 
+}
+
+.nav-item {
+    display: inline-block; 
+    margin-right: 20px;}
+
+.nav-link {
+    color: #212529; /* Navbar item text color */
+    text-decoration: none; /* Remove default text decoration */
+    font-weight: bold; /* Make navbar item text bold */
+    transition: color 0.3s ease; /* Add transition effect for color change */
+}
+
+.nav-link:hover {
+    color: #0069d9; /* Change navbar item text color on hover */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #f8f9fa; /* Footer background color */
+    padding: 20px 0; /* Padding for footer */
+    text-align: center; /* Center align footer content */
+    position: fixed; /* Fix the footer at the bottom of the page */
+    left: 0; /* Align footer to the left */
+    bottom: 0; /* Align footer to the bottom */
+    width: 100%; /* Set footer width to full width */
+    z-index: 999; /* Ensure the footer appears above other content */
+}
+
+.footer p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+
+.footer a {
+    color: #6c757d; /* Footer link text color */
+    text-decoration: none; /* Remove default text decoration */
+}
+
+.footer a:hover {
+    color: #007bff; /* Change link text color on hover */
+}
+
+/* Card styles */
+.card {
+    max-width: 300px;
+    height: 700px;
+    margin-bottom: 20px; 
+    border: 1px solid #dee2e6; 
+    border-radius: 5px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    row-gap: 12px;
+}
+
+.card-body {
+    padding: 15px; 
+    overflow: hidden; 
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-md-4 {
+    flex: 0 0 calc(50% - 20px); 
+    margin: 10px;
+}
